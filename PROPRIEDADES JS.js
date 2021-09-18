@@ -10,3 +10,11 @@ var novaProp = "lastName" ;
 aluno.matricula = 12345 ;
 aluno[novaProp] = "oliveira" ; 
 console. log (aluno)
+
+
+
+var aluno = new Object () ;
+aluno.nome = "DIEGO" ;
+aluno.nota = [8,9] ; 
+
+console.log (aluno)
